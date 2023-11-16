@@ -13,4 +13,4 @@ The model's output is then processed via the model_translate method. The method 
 
 The application object, NeuroCTScanner, only have 4 methods. The loadModel takes the CNN that we previously establish and assigns it to the object's model. The displayImage and \__convert_image__ are technically both helper methods to evaluateImage. When evaluateImage is called, the parameter is sent to the \__convert_image__ method and processes it by resizing (if necessary) and converting to an array format. The ready image is then fed into the CNN model and the result is fed into model_translate method from earlier. In sum, the evaluateImage method is a combination of processImage, CNN, and displayImage methods. 
 
-The application object is randomly tested with 3 samples from the 
+The application object is randomly tests with 3 samples from the the test set and calls the evaluateImage method to display the image of the brain CT, the highest percentage and predicted class, and a summary of of other class and their probability. 
