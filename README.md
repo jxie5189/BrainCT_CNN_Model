@@ -1,6 +1,6 @@
 # BrainCT_CNN_Model
-An neural network assignment from Machine Learning using Convolutional Neural Network 
-
+An neural network assignment from Machine Learning using Convolutional Neural Network. The model inputs a brain ct scan and outputs it's prediction as tumor, aneurysm, or cancer with each prediction percentage. 
+ 
 Dataset: https://www.kaggle.com/code/metamadyeth/ml-project-image-classification
 
 Original code from Google colab, the **code assumes that the dataset is already in the google drive**. The notebook makes a connection to the google drive and extracts the dataset. Data processing techniques are also referenced in the code as many other have worked on this dataset. The dataset is convert into a DataFame with the path of each sample under 'Path' column and 'label' as the label of each images. 
